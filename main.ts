@@ -6,7 +6,7 @@ load dependency
 */
 
 //% color="#ECA40D" weight=30 icon="\uf135"
-namespace SuperBitV2 {
+namespace SuperKit_ACE {
 
     const PCA9685_ADD = 0x40
     const MODE1 = 0x00
@@ -409,7 +409,7 @@ namespace SuperBitV2 {
 }
 
 //% color="#228B22" weight=25 icon="\uf0b2"
-namespace SuperBitV2_Digital {
+namespace SuperKit_Digital_ACE {
 	
     export enum mwDigitalNum {
         //% blockId="P4P6" block="P4P6"
@@ -687,7 +687,7 @@ namespace SuperBitV2_Digital {
 }
 
 //% color="#C814B8" weight=24 icon="\uf080"
-namespace SuperBitV2_Analog {
+namespace SuperKit_Analog_ACE {
 
     export enum enRocker {
         //% blockId="NoState" block="NoState"
